@@ -1,8 +1,8 @@
-const navbarshop = () => {
+const Navbarshop = () => {
   return (
     <div>
-      <h1>navbarshop</h1>
+      <h1>Navbarshop</h1>
     </div>
   );
 };
-export default navbarshop;
+export default Navbarshop;
