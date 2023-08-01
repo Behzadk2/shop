@@ -11,7 +11,7 @@ return(
       <React.Fragment>
       <h1>Shop</h1>
       <div className="row">
-      {PRODUCTS.map((i) => <Products propdata={i}></Products>)}
+      {PRODUCTS.map((i) => <Products key={i.id} propdata={i}></Products>)}
       </div>
       </React.Fragment>
 )
