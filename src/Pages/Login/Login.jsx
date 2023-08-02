@@ -7,13 +7,12 @@ const Login = () => {
      <>
     
      <br></br>
+    
      <button onClick={ () =>
       { 
         
         setUser(true) ;
-        
-    
-    
+      
      } 
     } className="btn btn-bg btn-success"> Login First</button>
      </>

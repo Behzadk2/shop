@@ -11,7 +11,7 @@ const Shop = ()=>{
 return(
 
       <React.Fragment>
-     {user ? <h1>you are login</h1> : <Login></Login>}
+     {user ? <h1>you are login Behzad Kazemi</h1> : <Login></Login>}
       <h1>Shop</h1>
       <div className="row">
       {PRODUCTS.map((i) => <Products key={i.id} propdata={i}></Products>)}

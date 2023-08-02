@@ -5,7 +5,7 @@ import React,{ useContext } from 'react';
 import { userContext } from '../App';
 const Navbarshop = () => {
 
-  const {user} = useContext(userContext)
+  const {user,setUser} = useContext(userContext)
     
   return (
     <div className="navbar navbar-dark bg-dark navbar-expand-lg">
@@ -20,6 +20,11 @@ const Navbarshop = () => {
             </Link>
           </li>
           <li className="nav-item"><Link to='/Login' className='nav-link'>Login</Link></li>
+          <li onClick={
+
+            () => setUser(false)
+            
+            } className="nav-item"><Link  className='nav-link'>Logout</Link></li>
         </ul>
        </div>
     </div>
