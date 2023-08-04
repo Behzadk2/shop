@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faShoppingCart} from '@fortawesome/free-solid-svg-icons'
+import {faDisplay, faShoppingCart} from '@fortawesome/free-solid-svg-icons'
 import React,{ useContext } from 'react';
 import { userContext } from '../App';
 const Navbarshop = () => {
